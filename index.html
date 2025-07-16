@@ -12,7 +12,7 @@
       justify-content: center;
       height: 100vh;
       font-family: sans-serif;
-      background-color: #f8f9fa;
+      background-color: #e6ccff; /* pastel purple */
     }
     button {
       padding: 1em 2em;
@@ -20,20 +20,20 @@
       margin: 1em;
       border: none;
       border-radius: 10px;
-      background-color: #007bff;
-      color: white;
+      background-color: #FDFD96;
+      color: black;
       cursor: pointer;
     }
     button:active {
-      background-color: #0056b3;
+      background-color: #AEC6CF;
     }
   </style>
 </head>
 <body>
-  <button onclick="document.getElementById('hi').play()">❤️ ILY</button>
-  <button onclick="document.getElementById('bark').play()">🐱 Prrrr</button>
+  <button onclick="document.getElementById('hi').play()">ILY❤️</button>
+  <button onclick="document.getElementById('bark').play()">PRRR🐱</button>
 
   <audio id="hi" src="ily.mp3" preload="auto"></audio>
-  <audio id="bark" src="prrrr.mp3" preload="auto"></audio>
+  <audio id="bark" src="prrr.mp3" preload="auto"></audio>
 </body>
 </html>
